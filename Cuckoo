@@ -1,0 +1,19 @@
+public class Cuckoo extends Bird
+{
+  public Cuckoo ()
+  {
+    super();
+    setName ("Cuckoo");
+  }
+  
+  public void eat ()
+  {
+    super.eat();
+    System.out.print (" and Caterpillars!");
+  }
+  
+  public void speak ()
+  {
+    System.out.print ("Cuckoo... cuckoo... cuckoo!");
+  }
+}
